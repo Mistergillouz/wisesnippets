@@ -2,20 +2,14 @@
   "name": "wisesnippets",
   "publisher": "wisesnippets",
   "displayName": "Wise utility snippets",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Wise utility snippets",
-  "main": "index.js",
   "scripts": {
-    "vsce": "vsce package",
-    "create": "vsce create-publisher mistergillouz",
-    "publish": "vsce publish",
-    "login": "vsce login mistergillouz"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vsce": "^1.71.0"
   },
   "engines": {
     "vscode": "^1.32.0"
