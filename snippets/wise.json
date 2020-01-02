@@ -183,5 +183,13 @@
       ""
     ],
     "description": "Insert a new Workbenchelement. Use the TAB key to navigate between entry fields"
+  },
+  "fireAction": {
+    "prefix": "fireAction",
+    "description": "Insert a ActionDispatcher.fireAction()",
+    "body": [
+      "ActionDispatcher.fireAction(ActionRegistry.${1/([A-Za-z])/${1:/upcase}/g}, ${2:viewContext})",
+      "$0"
+    ]
   }
 }
