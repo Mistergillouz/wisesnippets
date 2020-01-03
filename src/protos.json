@@ -5,14 +5,14 @@
 	    "returns": "array"
     },
     "isDefined": {
-      "params": ["value"]
+      "params": ["object"]
     },
     "parseBoolean": {
-      "params": ["value"],
+      "params": ["stringbool"],
 	    "returns": "isTrue"
     },
     "isEmpty": {
-      "params": ["obj"]
+      "params": ["object"]
     },
     "clone": {
       "params": ["object"],
@@ -27,11 +27,11 @@
 	    "returns": "void"
     },
     "compare": {
-      "params": ["obj1","obj2"],
+      "params": ["object1","object2"],
 	    "returns": "isEqual"
     },
     "capitalizeString": {
-      "params": ["string"],
+      "params": ["text"],
   	  "returns": "capitalized"
     }
   }
