@@ -1,0 +1,38 @@
+{
+  "ObjectUtils": {
+    "arrayfy": {
+      "params": ["object"],
+	    "returns": "array"
+    },
+    "isDefined": {
+      "params": ["value"]
+    },
+    "parseBoolean": {
+      "params": ["value"],
+	    "returns": "isTrue"
+    },
+    "isEmpty": {
+      "params": ["obj"]
+    },
+    "clone": {
+      "params": ["object"],
+	    "returns": "cloned"
+    },
+    "getProperty": {
+      "params": ["object","path","defaultValue"],
+	    "returns": "property"
+    },
+    "setProperty": {
+      "params": ["object","path","value"],
+	    "returns": "void"
+    },
+    "compare": {
+      "params": ["obj1","obj2"],
+	    "returns": "isEqual"
+    },
+    "capitalizeString": {
+      "params": ["string"],
+  	  "returns": "capitalized"
+    }
+  }
+}
