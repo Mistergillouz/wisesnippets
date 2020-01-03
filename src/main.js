@@ -7,7 +7,7 @@ const storeSnippets = {}
 Object.keys(data.stores).forEach(store => {
   const properties = data.stores[store]
   storeSnippets[store] = {
-    prefix: `Store: ${store}`,
+    prefix: ['Store', store],
     description: `Store: StoreRegistry.get${store}()`,
     body: [
       `const \${1:variable} = StoreRegistry.get${store}().\${2${properties}}(\${3:viewContext})`,
@@ -25,7 +25,7 @@ const helpers = data.helpers
 
 const helperSnippets = {
   HelperRegistry: {
-    prefix: 'Wise: HelperRegistry',
+    prefix: ['Wise', 'HelperRegistry'],
     description: 'HelperRegistry helper',
     body: [
       `const \${1:variable} = HelperRegistry.get\${2|${helpers}|}().\${3:method}($0)`
@@ -38,7 +38,7 @@ fs.writeFileSync(outdir('helperSnippets.json'), JSON.stringify(helperSnippets))
 const actionList = `|${data.actions.sort().join(',')}|`
 const actionSnippets = {
   ActionRegistry: {
-    prefix: 'Wise: fireAction',
+    prefix: ['Wise', 'fireAction', 'ActionRegistry'],
     description: 'Wise ActionRegistry actions list',
     body: [
       `ActionDispatcher.fireAction(ActionRegistry.\${1${actionList}}, \${2:actionContext})`
@@ -70,7 +70,7 @@ Object.keys(protos).forEach((objectName) => {
 
     const key = `${objectName}.${methodName}`
     protoSnippets[key] = {
-      prefix: key,
+      prefix: [objectName, methodName],
       description: `Insert the function: ${objectName}.${methodName}(${method.params.join(', ')})`,
       body
     }

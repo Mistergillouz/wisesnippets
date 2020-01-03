@@ -1,6 +1,6 @@
 {
   "JSApiAbstractAction": {
-    "prefix": "Wise: JSApiAbstractAction",
+    "prefix": ["Wise", "JSApiAbstractAction"],
     "body": [
       "sap.ui.define([",
       "  'sap/bi/webi/jsapi/flux/core/JSApiAbstractAction',",
@@ -46,7 +46,7 @@
     "description": "Insert a new JSAPIAbstractAction. Use the TAB key to navigate between entry fields"
   },
   "UserAbstractAction": {
-    "prefix": "Wise: UserAbstractAction",
+    "prefix": ["Wise", "UserAbstractAction"],
     "body": [
       "sap.ui.define([",
       "  'sap/bi/webi/core/UserAbstractAction',",
@@ -109,7 +109,7 @@
     "description": "Insert a new UserAbstractAction. Use the TAB key to navigate between entry fields"
   },
   "Workbenchelement": {
-    "prefix": "Wise: Workbenchelement",
+    "prefix": ["Wise", "WorkbenchElement"],
     "body": [
       "sap.ui.define([",
       "  'sap/bi/webi/core/flux/core/Dispatcher',",
@@ -185,7 +185,7 @@
     "description": "Insert a new Workbenchelement. Use the TAB key to navigate between entry fields"
   },
   "currentContext": {
-    "prefix": "Wise: getCurrentViewContext",
+    "prefix": ["Wise", "getCurrentViewContext"],
     "description": "Insert a this.getCurrentViewContext()",
     "body": [
       "const ${1:viewContext} = this.getCurrentViewContext()",
@@ -193,7 +193,7 @@
     ]
   },
   "setProperty": {
-    "prefix": "Wise: Model setProperty",
+    "prefix": ["Wise", "Model", "setProperty"],
     "description": "Insert JSONModel model setProperty statement",
     "body": [
       "this._model.setProperty('/${1:modelPropertyName}', ${2:$1})",
@@ -201,7 +201,7 @@
     ]
   },
   "getProperty": {
-    "prefix": "Wise: Model getProperty",
+    "prefix": ["Wise", "Model", "getProperty"],
     "description": "Insert JSONModel model getProperty statement",
     "body": [
       "const ${1:variableName} = this._model.getProperty('/${2:$1}')",
