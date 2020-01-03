@@ -30,6 +30,10 @@
       {
         "language": "javascript",
         "path": "./snippets/storeSnippets.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/actionSnippets.json"
       }
 
     ]
