@@ -185,7 +185,7 @@
     "description": "Insert a new Workbenchelement. Use the TAB key to navigate between entry fields"
   },
   "currentContext": {
-    "prefix": "wise: getCurrentViewContext",
+    "prefix": "Wise: getCurrentViewContext",
     "description": "Insert a this.getCurrentViewContext()",
     "body": [
       "const ${1:viewContext} = this.getCurrentViewContext()",

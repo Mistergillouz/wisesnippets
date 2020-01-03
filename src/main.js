@@ -17,17 +17,20 @@ Object.keys(data.stores).forEach(store => {
 
 fs.writeFileSync('src/storeSnippets.json', JSON.stringify(storeSnippets))
 
-const helperSnippets = {}
-data.helpers.forEach((helper) => {
-  const helperName = helper.charAt(0).toUpperCase() + helper.substring(1)
-  helperSnippets[helperName] = {
-    prefix: `Helper: ${helperName}`,
-    description: `HelperRegister.get${helperName}()`,
+const helpers = data.helpers
+  .map((helper) => helper.charAt(0).toUpperCase() + helper.substring(1))
+  .sort()
+  .join(',')
+
+const helperSnippets = {
+  HelperRegistry: {
+    prefix: 'Wise: HelperRegistry',
+    description: 'HelperRegistry helper',
     body: [
-      `const \${1:variable} = HelperRegistry.get${helperName}().\${2:methodName}($0)`
+      `const \${1:variable} = HelperRegistry.get\${2|${helpers}|}().\${3:method}($0)`
     ]
   }
-})
+}
 
 fs.writeFileSync('src/helperSnippets.json', JSON.stringify(helperSnippets))
 
