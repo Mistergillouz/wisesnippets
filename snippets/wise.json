@@ -186,9 +186,33 @@
   },
   "fireAction": {
     "prefix": "fireAction",
-    "description": "Insert a ActionDispatcher.fireAction()",
+    "description": "Insert a ActionDispatcher.fireAction($0)",
     "body": [
       "ActionDispatcher.fireAction(ActionRegistry.${1/([A-Za-z])/${1:/upcase}/g}, ${2:viewContext})",
+      "$0"
+    ]
+  },
+  "currentContext": {
+    "prefix": "getCurrentViewContext",
+    "description": "Insert a this.getCurrentViewContext()",
+    "body": [
+      "const ${1:viewContext} = this.getCurrentViewContext()",
+      "$0"
+    ]
+  },
+  "setProperty": {
+    "prefix": "store: setProperty",
+    "description": "Insert JSONModel model setProperty statement",
+    "body": [
+      "this._model.setProperty('/${1:modelPropertyName}', ${2:$1})",
+      "$0"
+    ]
+  },
+  "getProperty": {
+    "prefix": "store: getProperty",
+    "description": "Insert JSONModel model getProperty statement",
+    "body": [
+      "const ${1:variableName} = this._model.getProperty('/${2:$1}')",
       "$0"
     ]
   }

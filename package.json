@@ -22,7 +22,16 @@
       {
         "language": "javascript",
         "path": "./snippets/wise.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/helperSnippets.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/storeSnippets.json"
       }
+
     ]
   }
 }
