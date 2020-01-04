@@ -184,7 +184,7 @@
     ],
     "description": "Insert a new Workbenchelement. Use the TAB key to navigate between entry fields"
   },
-  "currentContext": {
+  "getCurrentViewContext": {
     "prefix": ["Wise", "getCurrentViewContext"],
     "description": "Insert a this.getCurrentViewContext()",
     "body": [
@@ -206,6 +206,15 @@
     "body": [
       "const ${1:variableName} = this._model.getProperty('/${2:$1}')",
       "$0"
+    ]
+  },
+  "array": {
+    "prefix": ["Wise", "Array"],
+    "description": "Array assistant",
+    "body": [
+      "const ${1:result} = ${2:arrayName}.${3|forEach,map,includes,find,some,reduce,findIndex,every,indexOf|}((${4:arrayVariable}) => {",
+      "   $0",
+      "})"
     ]
   }
 }
