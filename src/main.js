@@ -10,7 +10,7 @@ Object.keys(data.stores).forEach(store => {
     prefix: ['Store', store],
     description: `Store: StoreRegistry.get${store}()`,
     body: [
-      `const \${1:variable} = StoreRegistry.get${store}().\${2${properties}}(\${3:viewContext})`,
+      `StoreRegistry.get${store}().\${2${properties}}(\${3:viewContext})`,
       "$0"
     ]
   }
@@ -37,11 +37,18 @@ fs.writeFileSync(outdir('helperSnippets.json'), JSON.stringify(helperSnippets))
 
 const actionList = `|${data.actions.sort().join(',')}|`
 const actionSnippets = {
-  ActionRegistry: {
-    prefix: ['Wise', 'fireAction', 'ActionRegistry'],
+  fireAction: {
+    prefix: ['Wise', 'fireAction'],
     description: 'Wise ActionRegistry actions list',
     body: [
       `ActionDispatcher.fireAction(ActionRegistry.\${1${actionList}}, \${2:actionContext})`
+    ]
+  },
+  ActionRegistry: {
+    prefix: ['Wise', 'ActionRegistry'],
+    description: 'Wise ActionRegistry actions list',
+    body: [
+      `ActionRegistry.\${1${actionList}}`
     ]
   }
 }
@@ -56,9 +63,9 @@ Object.keys(protos).forEach((objectName) => {
     const method = protos[objectName][methodName]
 
     let variableName = ''
-    if (method.returns !== 'void') {
-      variableName = `const \${${method.params.length + 1}:${method.returns || methodName}} = `
-    }
+    // if (method.returns !== 'void') {
+    //   variableName = `const \${${method.params.length + 1}:${method.returns || methodName}} = `
+    // }
 
     const parameters = method.params
       .map((parameterName, index) => `\${${index + 1}:${parameterName}}`)
