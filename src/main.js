@@ -28,7 +28,7 @@ const helperSnippets = {
     prefix: ['Wise', 'HelperRegistry'],
     description: 'HelperRegistry helper',
     body: [
-      `const \${3:variable} = HelperRegistry.get\${1|${helpers}|}().\${2:helperMethod}($0)`
+      `HelperRegistry.get\${1|${helpers}|}()`
     ]
   }
 }
