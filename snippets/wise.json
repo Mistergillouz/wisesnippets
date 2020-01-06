@@ -212,7 +212,7 @@
     "prefix": ["Wise", "Array"],
     "description": "Array assistant",
     "body": [
-      "const ${1:result} = ${2:arrayName}.${3|forEach,map,includes,find,some,findIndex,every,indexOf|}((${4:arrayVariable}) => {",
+      "const ${1:result} = ${2:arrayName}.${3|forEach,map,filter,includes,find,some,findIndex,every,indexOf|}((${4:arrayVariable}) => {",
       "   $0",
       "})"
     ]
