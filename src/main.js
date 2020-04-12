@@ -8,7 +8,7 @@ Object.keys(data.stores).forEach(store => {
   const properties = data.stores[store]
   storeSnippets[store] = {
     prefix: ['Store', store],
-    description: `Store: StoreRegistry.get${store}()`,
+    description: store,
     body: [
       `StoreRegistry.get${store}().\${2${properties}}(\${3:viewContext})`,
       "$0"
@@ -16,12 +16,16 @@ Object.keys(data.stores).forEach(store => {
   }
 })
 
+StoreRegistry.getInteractionStore().getBiwSelectionContext(viewContext)
+
 fs.writeFileSync(outdir('storeSnippets.json'), JSON.stringify(storeSnippets))
+
 
 const helpers = data.helpers
   .map((helper) => helper.charAt(0).toUpperCase() + helper.substring(1))
   .sort()
   .join(',')
+
 
 const helperSnippets = {
   HelperRegistry: {
