@@ -160,7 +160,7 @@
       "",
       "    Dispatcher.registerSuccess(",
       "      $1,",
-      "      ActionRegistry.LOAD_SELECTION_DATA,",
+      "      ActionRegistry.USER_UPDATE_SELECTION,",
       "      $1.handleLoadSelectionDataSuccess,",
       "      Dispatcher.Priority.LOW",
       "    )",

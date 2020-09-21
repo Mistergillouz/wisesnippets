@@ -1,6 +1,15 @@
 WorkbenchController.prototype._dumpStore = function () {
   // eslint-disable-next-line quotes
-  const storesList = ["documentStore", "workbenchStore", "interactionStore", "reportElementStore", "reportStore", "dataObjectStore", "dataProviderStore", "documentInputControlStore", "reportInputControlStore", "workbenchElementStore", "configurationStore", "viewStore", "alerterStore", "commentStore", "documentInfosStore", "documentOpendocStore", "drillerFilterStore", "logonStore", "pageStore", "sessionStore", "sortStore", "variantStore", "webAppInfoStore", "webiStore", "appStore", "elementLinkStore", "featureToggleStore", "fullScreenStore", "wiseAppStore", "wiseViewStore", "workbenchErrorStore", "workbenchFilterBarStore", "workbenchSnapshotStore", "workbenchWarningStore" ]
+  const storesList = [
+    "documentStore", "workbenchStore", "interactionStore", "reportElementStore",
+    "reportStore", "dataObjectStore", "dataProviderStore", "documentInputControlStore",
+    "reportInputControlStore", "workbenchElementStore", "configurationStore", "viewStore",
+    "alerterStore", "commentStore", "documentInfosStore", "documentOpendocStore", "drillerFilterStore",
+    "logonStore", "pageStore", "sessionStore", "sortStore", "variantStore", "webAppInfoStore", "webiStore",
+    "appStore", "elementLinkStore", "featureToggleStore", "fullScreenStore", "wiseAppStore", "wiseViewStore",
+    "workbenchErrorStore", "workbenchFilterBarStore", "workbenchSnapshotStore", "workbenchWarningStore",
+    "sharedElementStore"
+  ]
   const stores = {}
   storesList.forEach((name) => {
     const storeName = name.charAt(0).toUpperCase() + name.substring(1)
