@@ -1,12 +1,13 @@
 WorkbenchController.prototype._dumpStore = function () {
+  debugger
   // eslint-disable-next-line quotes
   const storesList = [
     "documentStore", "workbenchStore", "interactionStore", "reportElementStore",
     "reportStore", "dataObjectStore", "dataProviderStore", "documentInputControlStore",
     "reportInputControlStore", "workbenchElementStore", "configurationStore", "viewStore",
-    "alerterStore", "commentStore", "documentInfosStore", "documentOpendocStore", "drillerFilterStore",
-    "logonStore", "pageStore", "sessionStore", "sortStore", "variantStore", "webAppInfoStore", "webiStore",
-    "appStore", "elementLinkStore", "featureToggleStore", "fullScreenStore", "wiseAppStore", "wiseViewStore",
+    "alerterStore", "commentStore", "documentInfosStore", "drillerFilterStore",
+    "pageStore", "sessionStore", "sortStore", "variantStore", "webAppInfoStore", "webiStore",
+    "elementLinkStore", "featureToggleStore", "fullScreenStore", "wiseAppStore", "wiseViewStore",
     "workbenchErrorStore", "workbenchFilterBarStore", "workbenchSnapshotStore", "workbenchWarningStore",
     "sharedElementStore"
   ]

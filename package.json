@@ -2,7 +2,7 @@
   "name": "wisesnippets",
   "publisher": "wisesnippets",
   "displayName": "Wise utility snippets",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Wise utility snippets",
   "scripts": {
     "main": "node src/main.js",
@@ -36,10 +36,6 @@
       {
         "language": "javascript",
         "path": "./snippets/actionSnippets.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/protoSnippets.json"
       }
 
     ]

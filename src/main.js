@@ -16,8 +16,6 @@ Object.keys(data.stores).forEach(store => {
   }
 })
 
-StoreRegistry.getInteractionStore().getBiwSelectionContext(viewContext)
-
 fs.writeFileSync(outdir('storeSnippets.json'), JSON.stringify(storeSnippets))
 
 
@@ -88,4 +86,4 @@ Object.keys(protos).forEach((objectName) => {
   })
 })
 
-fs.writeFileSync(outdir('protoSnippets.json'), JSON.stringify(protoSnippets))
+// fs.writeFileSync(outdir('protoSnippets.json'), JSON.stringify(protoSnippets))
