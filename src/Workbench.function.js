@@ -9,7 +9,7 @@ WorkbenchController.prototype._dumpStore = function () {
     "pageStore", "sessionStore", "sortStore", "variantStore", "webAppInfoStore", "webiStore",
     "elementLinkStore", "featureToggleStore", "fullScreenStore", "wiseAppStore", "wiseViewStore",
     "workbenchErrorStore", "workbenchFilterBarStore", "workbenchSnapshotStore", "workbenchWarningStore",
-    "sharedElementStore"
+    "CmsItemStore"
   ]
   const stores = {}
   storesList.forEach((name) => {
