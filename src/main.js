@@ -86,4 +86,5 @@ Object.keys(protos).forEach((objectName) => {
   })
 })
 
+
 // fs.writeFileSync(outdir('protoSnippets.json'), JSON.stringify(protoSnippets))
