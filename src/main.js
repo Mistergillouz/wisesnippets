@@ -14,6 +14,16 @@ Object.keys(data.stores).forEach(store => {
       "$0"
     ]
   }
+
+  const newStore = store + ' (new)'
+  storeSnippets[newStore] = {
+    prefix: ['Store', store],
+    description: store,
+    body: [
+      `${store}.\${2${properties}}(\${3:viewContext})`,
+      "$0"
+    ]
+  }
 })
 
 fs.writeFileSync(outdir('storeSnippets.json'), JSON.stringify(storeSnippets))

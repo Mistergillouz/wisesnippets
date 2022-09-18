@@ -1,1 +1,728 @@
-{"DocumentStore":{"prefix":["Store","DocumentStore"],"description":"DocumentStore","body":["StoreRegistry.getDocumentStore().${2|getAlerters,getBuiltinFormats,getCurrentAnswers,getCustomFormats,getCustomPalettes,getCustomization,getDataObjectsAllInfos,getDataProviders,getDataProvidersAllInfos,getDictionary,getDocument,getExtensions,getInputControls,getIsOpen,getLinks,getObjects,getParameters,getParametersGroups,getPaths,getPreviousAnswers,getProperties,getReports,getRights,getScheduledParameters,getSharedElements,getTracker,getUsePreviousPromptAnswers,getVariables,getVariants|}(${3:viewContext})","$0"]},"WorkbenchStore":{"prefix":["Store","WorkbenchStore"],"description":"WorkbenchStore","body":["StoreRegistry.getWorkbenchStore().${2|getActivePerspective,getAotModel,getAutoRefresh,getAvailableObjectsViewMode,getBusy,getBusyFromExtensions,getComboBoxDocumentModes,getCurrentPrompt,getCurrentPromptAnswers,getCurrentPrompts,getDataSourcePickerInfos,getDataTransfer,getDataproviderIds,getDialogAutoRefresh,getDialogBrowseCms,getDialogCalculationDirection,getDialogCopyComments,getDialogCustomSort,getDialogDataSourcePicker,getDialogDocumentPrompts,getDialogDocumentPromptsSummary,getDialogDocumentPurgeDataProviders,getDialogDocumentRefresh,getDialogDocumentRefreshDataProviders,getDialogEditSharedElement,getDialogElementLink,getDialogExport,getDialogFileOpen,getDialogFileSave,getDialogFill,getDialogFilterColumn,getDialogFilterbarManagement,getDialogFreeze,getDialogGrouping,getDialogHierarchyDefaultLevel,getDialogInsertIcons,getDialogKeydates,getDialogLinkEditor,getDialogMergeFlows,getDialogMergeProperties,getDialogOdataurl,getDialogPromptsManagerGroup,getDialogReportElementFilterEdit,getDialogReportElementHyperlink,getDialogReportElementInsertChart,getDialogReportElementInsertSection,getDialogReportElementReferenceAssign,getDialogReportElementReferenceEdit,getDialogSearchReplaceColumn,getDialogSelectRowColumn,getDialogTimeDimension,getDialogTrimColumn,getDialogWorkbenchAbout,getDialogWorkbenchError,getDocumentEditMode,getDocumentMode,getDriller,getHideWorkbenchToolbarsMode,getInitFromUIUserSettings,getInputControlPopoverDimensions,getInstantApply,getIsPhoneModeActive,getLastCreatedReport,getLastCreatedVariable,getMainSidePanelDisplayMode,getMainSidePanelsDisplayModeUserSet,getMaximizeReportPartMode,getPageContainerViewer,getPanelSelection,getPerspectiveContributionId,getPopoverDataModelEnrichments,getPopoverDrillerFilter,getPopoverDrillerHierarchies,getPopoverInputControlCalendar,getPopoverInputControlEntryField,getPopoverInputControlList,getPopoverInputControlListMulti,getPopoverInputControlRangeSlider,getPopoverInputControlSlider,getPopoverInputControlSpinner,getPopoverInputControlTreeMulti,getPopoverInputControlTreeSingle,getPopoverReportElementAmbiguousDrill,getPopoverReportElementComment,getPopoverReportElementEditBreak,getPopoverReportElementFoldUnfold,getPopoverZoom,getPreviousDocumentMode,getPreviousPromptAnswers,getPromptSettings,getRefreshParams,getReportPartContainerViewer,getRepositoryBrowsingInfos,getScrollToElement,getSecondarySidePanelDisplayMode,getSecondarySidePanelsDisplayModeUserSet,getShowPanelComments,getSidePanelDefaultMode,getSidePanelDoubleModeMainSize,getSidePanelDoubleModeSecondarySize,getSidePanelSingleModeMainSize,getToolbar,getToolbarContextual,getToolbarFilters,getToolbarFloating,getToolbarFormula,getToolbarReports,getToolbarVanish,getWdmViewSettings|}(${3:viewContext})","$0"]},"InteractionStore":{"prefix":["Store","InteractionStore"],"description":"InteractionStore","body":["StoreRegistry.getInteractionStore().${2|getBiwSelectionContext,getCustomElementInteraction,getDirectActionInformation,getDocumentViewer,getFeedbackLayer,getFocusAndCanvasInfo,getFocusWasInCanvas,getIgnoreNextClick,getInputControlRelations,getInteractionData,getInteractionMode,getIsAlternatSelection,getLastCreatedReportElement,getLastInteractionMode,getNextSelection,getPageContainer,getPageLinks,getROItemsCacheByRef,getReportPartContainer,getReportPartViewer,getSelection,getTooltipData,getUpdateFeedback|}(${3:viewContext})","$0"]},"ReportElementStore":{"prefix":["Store","ReportElementStore"],"description":"ReportElementStore","body":["StoreRegistry.getReportElementStore().${2|getActivatedZoom,getAlerters,getAnchors,getBinaryOutput,getBreaks,getCalculations,getDataFilter,getDataSeriesStyle,getDefaultLevelExpansions,getElement,getElementSize,getHtmlOutput,getJsonDataset,getJsonOutput,getLegacyElement,getProperties,getRanking,getReportPart,getSorts|}(${3:viewContext})","$0"]},"ReportStore":{"prefix":["Store","ReportStore"],"description":"ReportStore","body":["StoreRegistry.getReportStore().${2|getCurrentReportMap,getDataFilter,getDrillerElements,getDrillerFilters,getDrillerHierarchies,getDrillerOutput,getElements,getInputControls,getPagination,getReport,getReportMap,getStructure|}(${3:viewContext})","$0"]},"DataObjectStore":{"prefix":["Store","DataObjectStore"],"description":"DataObjectStore","body":["StoreRegistry.getDataObjectStore().${2|getDataObject,getHasLov,getLov|}(${3:viewContext})","$0"]},"DataProviderStore":{"prefix":["Store","DataProviderStore"],"description":"DataProviderStore","body":["StoreRegistry.getDataProviderStore().${2|getDataProvider|}(${3:viewContext})","$0"]},"DocumentInputControlStore":{"prefix":["Store","DocumentInputControlStore"],"description":"DocumentInputControlStore","body":["StoreRegistry.getDocumentInputControlStore().${2|getHasSelection,getInputControl,getIsError,getLov,getLovParameters,getLovQuery,getSelection|}(${3:viewContext})","$0"]},"ReportInputControlStore":{"prefix":["Store","ReportInputControlStore"],"description":"ReportInputControlStore","body":["StoreRegistry.getReportInputControlStore().${2|getHasSelection,getInputControl,getIsError,getLov,getLovParameters,getLovQuery,getSelection|}(${3:viewContext})","$0"]},"WorkbenchElementStore":{"prefix":["Store","WorkbenchElementStore"],"description":"WorkbenchElementStore","body":["StoreRegistry.getWorkbenchElementStore().${2|getAbout,getActivateChartZoom,getAddBreakContextual,getAddElementLinkContextual,getAddFilterContextual,getAddRankContextual,getAddSortContextual,getAlignContextual,getAllHierarchiesContextual,getApplyResetElementLink,getAssignDataContextual,getAssignReference,getAutoRefreshOff,getAutoRefreshOn,getBiwSelectFullReportContextual,getBiwSelectReportPartContextual,getBottomAlignContextual,getCenterAlignContextual,getChangeSource,getChartCollapse,getChartDrillDown,getChartDrillFocusDown,getChartDrillFocusUp,getChartDrillUp,getChartExpand,getClearContent,getClearDataSeriesDefaultColorsContextual,getCloseMaximizeReportPart,getCollapseAllHierarchiesContextual,getCollapseChildrenContextual,getColumnLeftContextual,getColumnRightContextual,getComment,getContributionPerspective,getContributionToolbarButton,getCopy,getCopyBlockODataLink,getCopyContent,getCopyHyperlinkUrl,getCreate,getCreateVariable,getCustomElementInteraction,getCut,getDataModel,getDataSourceSelection,getDeleteElement,getDeleteElementContextual,getDrillBy,getDrillContextual,getDrillDown,getDrillFilterDelete,getDrillFocusContextual,getDrillUp,getEdit,getEditAsGeoByLongLat,getEditAsGeoByName,getEditBreakContextual,getEditElementLinkContextual,getEditFilterContextual,getEditFiltersDhtmlDialog,getEditGrouping,getEditQueryPanel,getEditRankContextual,getEditSectionContextual,getEditSortContextual,getEditVariable,getElementAlerters,getElementLevelBack,getElementLevelBackward,getElementLevelForward,getElementLevelFront,getElementLink,getElementLinkContextual,getElementLinkDelete,getElementLinkReset,getElementRanking,getElementSortAsc,getElementSortDesc,getElementSorts,getElementUnSort,getExpandAllHierarchiesContextual,getExpandChildrenContextual,getExpandDescendantContextual,getExport,getExtensionTBMenu,getFavoriteToggle,getFilterbarManagement,getFitToPage,getFitToWidth,getFocusOn,getFooterCalculationContextual,getFormatChart,getFormatFreeCell,getFormatHeterogeneous,getFormatNumber,getFormatNumberContextual,getFormatPageBody,getFormatPageFooter,getFormatPageHeader,getFormatSection,getFormatTable,getFormatTableCell,getFreeze,getFreezeToggle,getHideColContextual,getHideRowContextual,getHideWhenContextual,getHideWhenEmptyContextual,getHierarchyContextual,getHyperlinkAddContextualDoc,getHyperlinkAddContextualIntradoc,getHyperlinkAddContextualUrl,getHyperlinkDocumentAddContextual,getHyperlinkEditContextual,getHyperlinkIntraDocumentAddContextual,getHyperlinkRemoveContextual,getInputControlCreate,getInputControlCreateGroup,getInputControlCreateGroupDocument,getInputControlCreateGroupReport,getInputControlDelete,getInputControlEdit,getInputControlEditGroup,getInputControlGroupAdd,getInputControlsManagement,getInputControlsReset,getInsertAverageCalculation,getInsertCell,getInsertCellComment,getInsertCellDocumentName,getInsertCellDrillFilter,getInsertCellFree,getInsertCellLastRefresh,getInsertCellPageNumber,getInsertCellPageNumberTotal,getInsertCellPageTotal,getInsertCellPrompt,getInsertCellPromptSummary,getInsertCellQuerySummary,getInsertCellReportFilterSummary,getInsertChart,getInsertChartByType,getInsertChartComparison,getInsertChartCorrelation,getInsertChartDistribution,getInsertChartGeographic,getInsertChartIndicator,getInsertChartProportion,getInsertChartSideBySide,getInsertChartTrend,getInsertCountCalculation,getInsertCustomElement,getInsertDefaultAggregationCalculation,getInsertForm,getInsertHTable,getInsertIcons,getInsertMaxCalculation,getInsertMinCalculation,getInsertPercentageCalculation,getInsertSection,getInsertSharedElement,getInsertSumCalculation,getInsertTable,getInsertVTable,getInsertXTable,getKeydates,getLabelAutoRefresh,getLabelEnable,getLabelPage,getLabelPageMax,getLabelZoom,getLabelZoomValue,getLeftAlignContextual,getManagePalettes,getManageRules,getManageSharedElements,getMaximizeReportPart,getMergeCells,getMiddleAlignContextual,getModeDesign,getModeReading,getModeStructure,getOpen,getOpenHelp,getOpenTemp,getPageFirst,getPageLast,getPageNext,getPagePrevious,getPageTo,getPaste,getPrint,getProcessHyperlink,getProcessIntraDocumentLink,getPromptMenu,getPurge,getRedo,getRefresh,getRefreshDataProvider,getRefreshMenu,getRemoveBreakContextual,getRemoveElementLinkContextual,getRemoveFilterContextual,getRemoveRankContextual,getRemoveSortContextual,getReportAdd,getReportDelete,getReportDuplicate,getReportHide,getReportMove,getReportMoveFirst,getReportMoveLast,getReportMoveNext,getReportMovePrevious,getReportRename,getReportShow,getRightAlignContextual,getRowAboveContextual,getRowBelowContextual,getSave,getSaveAs,getSaveAsSharedElementContextual,getSaveMenu,getSelectAll,getSendTo,getSetAsSection,getSetDataSeriesDefaultColorsContextual,getSetDefaultLevelContextual,getSetReportDisplayPage,getSetReportDisplayQuick,getSettings,getShowAssignDataTab,getShowBreakTab,getShowContextualMenu,getShowFilterTab,getShowFilters,getShowFormatPanelAppearanceTab,getShowFormatPanelDisplayTab,getShowFormatPanelLayoutTab,getShowFormatPanelStyleTab,getShowFormatPanelTextTab,getShowFormula,getShowHiddenObjectsContextual,getShowRankingTab,getShowSortTab,getSymmCollapseChildrenContextual,getSymmExpandChildrenContextual,getSymmExpandDescendantContextual,getSymmMenuContextual,getTableDrillFocusDown,getTableDrillFocusUp,getTimeDimChangeLevel,getTimeDimChangeLevelMenu,getTimeDimDown,getTimeDimUp,getToggleDrillMode,getToggleFoldUnfold,getToggleHide,getToggleHideMainToolbars,getToggleMainSidePanelVisibility,getTogglePinWorkbenchMainToolbar,getToggleSetReportDisplayModePage,getToggleShowChanges,getToolbarCollapse,getToolbarExpand,getTopAlignContextual,getTrackDataChanges,getTurnToContextual,getUnMergeCell,getUndo,getUnlinkSharedElementContextual,getUpdateSharedElementContextual,getWrcCopy,getWrcImport,getWrcOpen,getWrcOpenMenu,getWrcPublish,getWrcSave,getZoom,getZoomChange,getZoomDecrease,getZoomIncrease|}(${3:viewContext})","$0"]},"ConfigurationStore":{"prefix":["Store","ConfigurationStore"],"description":"ConfigurationStore","body":["StoreRegistry.getConfigurationStore().${2|getCharsets,getCustomVisualizationSamples,getCustomVisualizations,getFontmappings,getFormats,getFunctions,getGradientOrientations,getLocales,getMarkerPalettes,getOperators,getPalettes,getPaperSizes,getSettings,getSkins,getVisualizations|}(${3:viewContext})","$0"]},"ViewStore":{"prefix":["Store","ViewStore"],"description":"ViewStore","body":["StoreRegistry.getViewStore().${2|activeController,currentViewId,lastFolderId,lastViewId,views|}(${3:viewContext})","$0"]},"AlerterStore":{"prefix":["Store","AlerterStore"],"description":"AlerterStore","body":["StoreRegistry.getAlerterStore().${2|getAlerter|}(${3:viewContext})","$0"]},"CommentStore":{"prefix":["Store","CommentStore"],"description":"CommentStore","body":["StoreRegistry.getCommentStore().${2|getComments|}(${3:viewContext})","$0"]},"DocumentInfosStore":{"prefix":["Store","DocumentInfosStore"],"description":"DocumentInfosStore","body":["StoreRegistry.getDocumentInfosStore().${2|getSchedules|}(${3:viewContext})","$0"]},"DrillerFilterStore":{"prefix":["Store","DrillerFilterStore"],"description":"DrillerFilterStore","body":["StoreRegistry.getDrillerFilterStore().${2|getDrillerFilter|}(${3:viewContext})","$0"]},"PageStore":{"prefix":["Store","PageStore"],"description":"PageStore","body":["StoreRegistry.getPageStore().${2|getAccessibiltyInfos,getComments,getFoldInfos,getJsonOutput,getPage|}(${3:viewContext})","$0"]},"SessionStore":{"prefix":["Store","SessionStore"],"description":"SessionStore","body":["StoreRegistry.getSessionStore().${2|getLastOpenedFolder,getLocaleInfo,getLogonError,getLogonInfo,getLogonToken,getRaylightSessionId,getRecents,getSecuredCommands,getSessionInfos,getSessionSettings,getZaboDocument|}(${3:viewContext})","$0"]},"SortStore":{"prefix":["Store","SortStore"],"description":"SortStore","body":["StoreRegistry.getSortStore().${2|getSort|}(${3:viewContext})","$0"]},"VariantStore":{"prefix":["Store","VariantStore"],"description":"VariantStore","body":["StoreRegistry.getVariantStore().${2|getVariant|}(${3:viewContext})","$0"]},"WebAppInfoStore":{"prefix":["Store","WebAppInfoStore"],"description":"WebAppInfoStore","body":["StoreRegistry.getWebAppInfoStore().${2|getAboutInfo,getAuthenticationModes,getDocumentsOccurrences,getSystemInformations|}(${3:viewContext})","$0"]},"WebiStore":{"prefix":["Store","WebiStore"],"description":"WebiStore","body":["StoreRegistry.getWebiStore().${2|advancedExportModes,authenticationModes,cancelRefreshModes,complexPromptOperators,csvExportColumnDelimiter,csvExportTextQualifier,days,displayModes,hyperlinkTargets,hyperlinkTypes,imageDPI,inputControlOperators,inputControlProperties,inputControlTypes,insertIconsGroup,memberSelectionType,months,rankingCalculationModes,sortOrders,standardPageFormats,uiChartDisplayModes,uiSizes,uiThemes|}(${3:viewContext})","$0"]},"ElementLinkStore":{"prefix":["Store","ElementLinkStore"],"description":"ElementLinkStore","body":["StoreRegistry.getElementLinkStore().${2|getElementLink|}(${3:viewContext})","$0"]},"FeatureToggleStore":{"prefix":["Store","FeatureToggleStore"],"description":"FeatureToggleStore","body":["StoreRegistry.getFeatureToggleStore().${2|getDHTMLDesignerAllowed|}(${3:viewContext})","$0"]},"FullScreenStore":{"prefix":["Store","FullScreenStore"],"description":"FullScreenStore","body":["StoreRegistry.getFullScreenStore().${2|getFullScreenData|}(${3:viewContext})","$0"]},"WiseAppStore":{"prefix":["Store","WiseAppStore"],"description":"WiseAppStore","body":["StoreRegistry.getWiseAppStore().${2|getBehaviorsInfo,getClipboardOperation,getDebugInfo,getHyperlinkData,getPlatform,getServiceInfo,getShowDebugDialog|}(${3:viewContext})","$0"]},"WiseViewStore":{"prefix":["Store","WiseViewStore"],"description":"WiseViewStore","body":["StoreRegistry.getWiseViewStore().${2|getBiwParameters,getDesignerWrapperInstance,getDhtmlDesignerInstance,getOfflineHelpFlag,getOfflineHelpUrl,getOpenDocFilterString,getOpenDocInProgress,getOpenDocParameters,getOpenDocPromptsParameters,getScheduleParameters,getStylePrefixId,getViewContext,getViewIndex,getWiseViewArguments,getWiseViewMode|}(${3:viewContext})","$0"]},"WorkbenchErrorStore":{"prefix":["Store","WorkbenchErrorStore"],"description":"WorkbenchErrorStore","body":["StoreRegistry.getWorkbenchErrorStore().${2|getError,getErrorState|}(${3:viewContext})","$0"]},"WorkbenchFilterBarStore":{"prefix":["Store","WorkbenchFilterBarStore"],"description":"WorkbenchFilterBarStore","body":["StoreRegistry.getWorkbenchFilterBarStore().${2|getIsDrillerFiltersExpanded,getIsGroupExpanded,getShowKeys|}(${3:viewContext})","$0"]},"WorkbenchSnapshotStore":{"prefix":["Store","WorkbenchSnapshotStore"],"description":"WorkbenchSnapshotStore","body":["StoreRegistry.getWorkbenchSnapshotStore().${2|getCurrent,getIsTemporary,getRedoables,getUndoables|}(${3:viewContext})","$0"]},"WorkbenchWarningStore":{"prefix":["Store","WorkbenchWarningStore"],"description":"WorkbenchWarningStore","body":["StoreRegistry.getWorkbenchWarningStore().${2|getAfterCancelRefreshPartial,getAfterCancelRefreshPurge,getDocumentOutOfCache,getForceEnableSaveButton,getSaveWarnings,getWarnings|}(${3:viewContext})","$0"]},"CmsItemStore":{"prefix":["Store","CmsItemStore"],"description":"CmsItemStore","body":["StoreRegistry.getCmsItemStore().${2|getAutosaves,getCategories,getCategoriesDocuments,getCmsCurrentFileTypeId,getCmsFolders,getLastCreatedObject,getLocalUniverses,getSharedElements,getUniverses|}(${3:viewContext})","$0"]},"DataModelStore":{"prefix":["Store","DataModelStore"],"description":"DataModelStore","body":["StoreRegistry.getDataModelStore().${2|getAddedCombinedCube,getCubes,getDataProviders,getDataSources,getFacetsData,getPreviewData,getRequiredUpdates,getRows|}(${3:viewContext})","$0"]}}
+{
+  "DocumentStore": {
+    "prefix": [
+      "Store",
+      "DocumentStore"
+    ],
+    "description": "DocumentStore",
+    "body": [
+      "StoreRegistry.getDocumentStore().${2|getAlerters,getBuiltinFormats,getCurrentAnswers,getCustomFormats,getCustomPalettes,getCustomization,getDataObjectsAllInfos,getDataProviders,getDataProvidersAllInfos,getDictionary,getDocument,getExtensions,getInputControls,getIsOpen,getLinks,getObjects,getParameters,getParametersGroups,getPaths,getPreviousAnswers,getProperties,getReports,getRights,getScheduledParameters,getSharedElements,getTracker,getUsePreviousPromptAnswers,getVariables,getVariants|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "DocumentStore (new)": {
+    "prefix": [
+      "Store",
+      "DocumentStore"
+    ],
+    "description": "DocumentStore",
+    "body": [
+      "DocumentStore.${2|getAlerters,getBuiltinFormats,getCurrentAnswers,getCustomFormats,getCustomPalettes,getCustomization,getDataObjectsAllInfos,getDataProviders,getDataProvidersAllInfos,getDictionary,getDocument,getExtensions,getInputControls,getIsOpen,getLinks,getObjects,getParameters,getParametersGroups,getPaths,getPreviousAnswers,getProperties,getReports,getRights,getScheduledParameters,getSharedElements,getTracker,getUsePreviousPromptAnswers,getVariables,getVariants|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "WorkbenchStore": {
+    "prefix": [
+      "Store",
+      "WorkbenchStore"
+    ],
+    "description": "WorkbenchStore",
+    "body": [
+      "StoreRegistry.getWorkbenchStore().${2|getActivePerspective,getAotModel,getAutoRefresh,getAvailableObjectsViewMode,getBusy,getBusyFromExtensions,getComboBoxDocumentModes,getCurrentPrompt,getCurrentPromptAnswers,getCurrentPrompts,getDataSourcePickerInfos,getDataTransfer,getDataproviderIds,getDialogAutoRefresh,getDialogBrowseCms,getDialogCalculationDirection,getDialogCopyComments,getDialogCustomSort,getDialogDataSourcePicker,getDialogDocumentPrompts,getDialogDocumentPromptsSummary,getDialogDocumentPurgeDataProviders,getDialogDocumentRefresh,getDialogDocumentRefreshDataProviders,getDialogEditSharedElement,getDialogElementLink,getDialogExport,getDialogFileOpen,getDialogFileSave,getDialogFill,getDialogFilterColumn,getDialogFilterbarManagement,getDialogFreeze,getDialogGrouping,getDialogHierarchyDefaultLevel,getDialogInsertIcons,getDialogKeydates,getDialogLinkEditor,getDialogMergeFlows,getDialogMergeProperties,getDialogOdataurl,getDialogPromptsManagerGroup,getDialogReportElementFilterEdit,getDialogReportElementHyperlink,getDialogReportElementInsertChart,getDialogReportElementInsertSection,getDialogReportElementReferenceAssign,getDialogReportElementReferenceEdit,getDialogSearchReplaceColumn,getDialogSelectRowColumn,getDialogTimeDimension,getDialogTrimColumn,getDialogWorkbenchAbout,getDialogWorkbenchError,getDocumentEditMode,getDocumentMode,getDriller,getHideWorkbenchToolbarsMode,getInitFromUIUserSettings,getInputControlPopoverDimensions,getInstantApply,getIsPhoneModeActive,getLastCreatedReport,getLastCreatedVariable,getMainSidePanelDisplayMode,getMainSidePanelsDisplayModeUserSet,getMaximizeReportPartMode,getPageContainerViewer,getPanelSelection,getPerspectiveContributionId,getPopoverDataModelEnrichments,getPopoverDrillerFilter,getPopoverDrillerHierarchies,getPopoverInputControlCalendar,getPopoverInputControlEntryField,getPopoverInputControlList,getPopoverInputControlListMulti,getPopoverInputControlRangeSlider,getPopoverInputControlSlider,getPopoverInputControlSpinner,getPopoverInputControlTreeMulti,getPopoverInputControlTreeSingle,getPopoverReportElementAmbiguousDrill,getPopoverReportElementComment,getPopoverReportElementEditBreak,getPopoverReportElementFoldUnfold,getPopoverZoom,getPreviousDocumentMode,getPreviousPromptAnswers,getPromptSettings,getRefreshParams,getReportPartContainerViewer,getRepositoryBrowsingInfos,getScrollToElement,getSecondarySidePanelDisplayMode,getSecondarySidePanelsDisplayModeUserSet,getShowPanelComments,getSidePanelDefaultMode,getSidePanelDoubleModeMainSize,getSidePanelDoubleModeSecondarySize,getSidePanelSingleModeMainSize,getToolbar,getToolbarContextual,getToolbarFilters,getToolbarFloating,getToolbarFormula,getToolbarReports,getToolbarVanish,getWdmViewSettings|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "WorkbenchStore (new)": {
+    "prefix": [
+      "Store",
+      "WorkbenchStore"
+    ],
+    "description": "WorkbenchStore",
+    "body": [
+      "WorkbenchStore.${2|getActivePerspective,getAotModel,getAutoRefresh,getAvailableObjectsViewMode,getBusy,getBusyFromExtensions,getComboBoxDocumentModes,getCurrentPrompt,getCurrentPromptAnswers,getCurrentPrompts,getDataSourcePickerInfos,getDataTransfer,getDataproviderIds,getDialogAutoRefresh,getDialogBrowseCms,getDialogCalculationDirection,getDialogCopyComments,getDialogCustomSort,getDialogDataSourcePicker,getDialogDocumentPrompts,getDialogDocumentPromptsSummary,getDialogDocumentPurgeDataProviders,getDialogDocumentRefresh,getDialogDocumentRefreshDataProviders,getDialogEditSharedElement,getDialogElementLink,getDialogExport,getDialogFileOpen,getDialogFileSave,getDialogFill,getDialogFilterColumn,getDialogFilterbarManagement,getDialogFreeze,getDialogGrouping,getDialogHierarchyDefaultLevel,getDialogInsertIcons,getDialogKeydates,getDialogLinkEditor,getDialogMergeFlows,getDialogMergeProperties,getDialogOdataurl,getDialogPromptsManagerGroup,getDialogReportElementFilterEdit,getDialogReportElementHyperlink,getDialogReportElementInsertChart,getDialogReportElementInsertSection,getDialogReportElementReferenceAssign,getDialogReportElementReferenceEdit,getDialogSearchReplaceColumn,getDialogSelectRowColumn,getDialogTimeDimension,getDialogTrimColumn,getDialogWorkbenchAbout,getDialogWorkbenchError,getDocumentEditMode,getDocumentMode,getDriller,getHideWorkbenchToolbarsMode,getInitFromUIUserSettings,getInputControlPopoverDimensions,getInstantApply,getIsPhoneModeActive,getLastCreatedReport,getLastCreatedVariable,getMainSidePanelDisplayMode,getMainSidePanelsDisplayModeUserSet,getMaximizeReportPartMode,getPageContainerViewer,getPanelSelection,getPerspectiveContributionId,getPopoverDataModelEnrichments,getPopoverDrillerFilter,getPopoverDrillerHierarchies,getPopoverInputControlCalendar,getPopoverInputControlEntryField,getPopoverInputControlList,getPopoverInputControlListMulti,getPopoverInputControlRangeSlider,getPopoverInputControlSlider,getPopoverInputControlSpinner,getPopoverInputControlTreeMulti,getPopoverInputControlTreeSingle,getPopoverReportElementAmbiguousDrill,getPopoverReportElementComment,getPopoverReportElementEditBreak,getPopoverReportElementFoldUnfold,getPopoverZoom,getPreviousDocumentMode,getPreviousPromptAnswers,getPromptSettings,getRefreshParams,getReportPartContainerViewer,getRepositoryBrowsingInfos,getScrollToElement,getSecondarySidePanelDisplayMode,getSecondarySidePanelsDisplayModeUserSet,getShowPanelComments,getSidePanelDefaultMode,getSidePanelDoubleModeMainSize,getSidePanelDoubleModeSecondarySize,getSidePanelSingleModeMainSize,getToolbar,getToolbarContextual,getToolbarFilters,getToolbarFloating,getToolbarFormula,getToolbarReports,getToolbarVanish,getWdmViewSettings|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "InteractionStore": {
+    "prefix": [
+      "Store",
+      "InteractionStore"
+    ],
+    "description": "InteractionStore",
+    "body": [
+      "StoreRegistry.getInteractionStore().${2|getBiwSelectionContext,getCustomElementInteraction,getDirectActionInformation,getDocumentViewer,getFeedbackLayer,getFocusAndCanvasInfo,getFocusWasInCanvas,getIgnoreNextClick,getInputControlRelations,getInteractionData,getInteractionMode,getIsAlternatSelection,getLastCreatedReportElement,getLastInteractionMode,getNextSelection,getPageContainer,getPageLinks,getROItemsCacheByRef,getReportPartContainer,getReportPartViewer,getSelection,getTooltipData,getUpdateFeedback|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "InteractionStore (new)": {
+    "prefix": [
+      "Store",
+      "InteractionStore"
+    ],
+    "description": "InteractionStore",
+    "body": [
+      "InteractionStore.${2|getBiwSelectionContext,getCustomElementInteraction,getDirectActionInformation,getDocumentViewer,getFeedbackLayer,getFocusAndCanvasInfo,getFocusWasInCanvas,getIgnoreNextClick,getInputControlRelations,getInteractionData,getInteractionMode,getIsAlternatSelection,getLastCreatedReportElement,getLastInteractionMode,getNextSelection,getPageContainer,getPageLinks,getROItemsCacheByRef,getReportPartContainer,getReportPartViewer,getSelection,getTooltipData,getUpdateFeedback|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "ReportElementStore": {
+    "prefix": [
+      "Store",
+      "ReportElementStore"
+    ],
+    "description": "ReportElementStore",
+    "body": [
+      "StoreRegistry.getReportElementStore().${2|getActivatedZoom,getAlerters,getAnchors,getBinaryOutput,getBreaks,getCalculations,getDataFilter,getDataSeriesStyle,getDefaultLevelExpansions,getElement,getElementSize,getHtmlOutput,getJsonDataset,getJsonOutput,getLegacyElement,getProperties,getRanking,getReportPart,getSorts|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "ReportElementStore (new)": {
+    "prefix": [
+      "Store",
+      "ReportElementStore"
+    ],
+    "description": "ReportElementStore",
+    "body": [
+      "ReportElementStore.${2|getActivatedZoom,getAlerters,getAnchors,getBinaryOutput,getBreaks,getCalculations,getDataFilter,getDataSeriesStyle,getDefaultLevelExpansions,getElement,getElementSize,getHtmlOutput,getJsonDataset,getJsonOutput,getLegacyElement,getProperties,getRanking,getReportPart,getSorts|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "ReportStore": {
+    "prefix": [
+      "Store",
+      "ReportStore"
+    ],
+    "description": "ReportStore",
+    "body": [
+      "StoreRegistry.getReportStore().${2|getCurrentReportMap,getDataFilter,getDrillerElements,getDrillerFilters,getDrillerHierarchies,getDrillerOutput,getElements,getInputControls,getPagination,getReport,getReportMap,getStructure|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "ReportStore (new)": {
+    "prefix": [
+      "Store",
+      "ReportStore"
+    ],
+    "description": "ReportStore",
+    "body": [
+      "ReportStore.${2|getCurrentReportMap,getDataFilter,getDrillerElements,getDrillerFilters,getDrillerHierarchies,getDrillerOutput,getElements,getInputControls,getPagination,getReport,getReportMap,getStructure|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "DataObjectStore": {
+    "prefix": [
+      "Store",
+      "DataObjectStore"
+    ],
+    "description": "DataObjectStore",
+    "body": [
+      "StoreRegistry.getDataObjectStore().${2|getDataObject,getHasLov,getLov|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "DataObjectStore (new)": {
+    "prefix": [
+      "Store",
+      "DataObjectStore"
+    ],
+    "description": "DataObjectStore",
+    "body": [
+      "DataObjectStore.${2|getDataObject,getHasLov,getLov|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "DataProviderStore": {
+    "prefix": [
+      "Store",
+      "DataProviderStore"
+    ],
+    "description": "DataProviderStore",
+    "body": [
+      "StoreRegistry.getDataProviderStore().${2|getDataProvider|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "DataProviderStore (new)": {
+    "prefix": [
+      "Store",
+      "DataProviderStore"
+    ],
+    "description": "DataProviderStore",
+    "body": [
+      "DataProviderStore.${2|getDataProvider|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "DocumentInputControlStore": {
+    "prefix": [
+      "Store",
+      "DocumentInputControlStore"
+    ],
+    "description": "DocumentInputControlStore",
+    "body": [
+      "StoreRegistry.getDocumentInputControlStore().${2|getHasSelection,getInputControl,getIsError,getLov,getLovParameters,getLovQuery,getSelection|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "DocumentInputControlStore (new)": {
+    "prefix": [
+      "Store",
+      "DocumentInputControlStore"
+    ],
+    "description": "DocumentInputControlStore",
+    "body": [
+      "DocumentInputControlStore.${2|getHasSelection,getInputControl,getIsError,getLov,getLovParameters,getLovQuery,getSelection|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "ReportInputControlStore": {
+    "prefix": [
+      "Store",
+      "ReportInputControlStore"
+    ],
+    "description": "ReportInputControlStore",
+    "body": [
+      "StoreRegistry.getReportInputControlStore().${2|getHasSelection,getInputControl,getIsError,getLov,getLovParameters,getLovQuery,getSelection|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "ReportInputControlStore (new)": {
+    "prefix": [
+      "Store",
+      "ReportInputControlStore"
+    ],
+    "description": "ReportInputControlStore",
+    "body": [
+      "ReportInputControlStore.${2|getHasSelection,getInputControl,getIsError,getLov,getLovParameters,getLovQuery,getSelection|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "WorkbenchElementStore": {
+    "prefix": [
+      "Store",
+      "WorkbenchElementStore"
+    ],
+    "description": "WorkbenchElementStore",
+    "body": [
+      "StoreRegistry.getWorkbenchElementStore().${2|getAbout,getActivateChartZoom,getAddBreakContextual,getAddElementLinkContextual,getAddFilterContextual,getAddRankContextual,getAddSortContextual,getAlignContextual,getAllHierarchiesContextual,getApplyResetElementLink,getAssignDataContextual,getAssignReference,getAutoRefreshOff,getAutoRefreshOn,getBiwSelectFullReportContextual,getBiwSelectReportPartContextual,getBottomAlignContextual,getCenterAlignContextual,getChangeSource,getChartCollapse,getChartDrillDown,getChartDrillFocusDown,getChartDrillFocusUp,getChartDrillUp,getChartExpand,getClearContent,getClearDataSeriesDefaultColorsContextual,getCloseMaximizeReportPart,getCollapseAllHierarchiesContextual,getCollapseChildrenContextual,getColumnLeftContextual,getColumnRightContextual,getComment,getContributionPerspective,getContributionToolbarButton,getCopy,getCopyBlockODataLink,getCopyContent,getCopyHyperlinkUrl,getCreate,getCreateVariable,getCustomElementInteraction,getCut,getDataModel,getDataSourceSelection,getDeleteElement,getDeleteElementContextual,getDrillBy,getDrillContextual,getDrillDown,getDrillFilterDelete,getDrillFocusContextual,getDrillUp,getEdit,getEditAsGeoByLongLat,getEditAsGeoByName,getEditBreakContextual,getEditElementLinkContextual,getEditFilterContextual,getEditFiltersDhtmlDialog,getEditGrouping,getEditQueryPanel,getEditRankContextual,getEditSectionContextual,getEditSortContextual,getEditVariable,getElementAlerters,getElementLevelBack,getElementLevelBackward,getElementLevelForward,getElementLevelFront,getElementLink,getElementLinkContextual,getElementLinkDelete,getElementLinkReset,getElementRanking,getElementSortAsc,getElementSortDesc,getElementSorts,getElementUnSort,getExpandAllHierarchiesContextual,getExpandChildrenContextual,getExpandDescendantContextual,getExport,getExtensionTBMenu,getFavoriteToggle,getFilterbarManagement,getFitToPage,getFitToWidth,getFocusOn,getFooterCalculationContextual,getFormatChart,getFormatFreeCell,getFormatHeterogeneous,getFormatNumber,getFormatNumberContextual,getFormatPageBody,getFormatPageFooter,getFormatPageHeader,getFormatSection,getFormatTable,getFormatTableCell,getFreeze,getFreezeToggle,getHideColContextual,getHideRowContextual,getHideWhenContextual,getHideWhenEmptyContextual,getHierarchyContextual,getHyperlinkAddContextualDoc,getHyperlinkAddContextualIntradoc,getHyperlinkAddContextualUrl,getHyperlinkDocumentAddContextual,getHyperlinkEditContextual,getHyperlinkIntraDocumentAddContextual,getHyperlinkRemoveContextual,getInputControlCreate,getInputControlCreateGroup,getInputControlCreateGroupDocument,getInputControlCreateGroupReport,getInputControlDelete,getInputControlEdit,getInputControlEditGroup,getInputControlGroupAdd,getInputControlsManagement,getInputControlsReset,getInsertAverageCalculation,getInsertCell,getInsertCellComment,getInsertCellDocumentName,getInsertCellDrillFilter,getInsertCellFree,getInsertCellLastRefresh,getInsertCellPageNumber,getInsertCellPageNumberTotal,getInsertCellPageTotal,getInsertCellPrompt,getInsertCellPromptSummary,getInsertCellQuerySummary,getInsertCellReportFilterSummary,getInsertChart,getInsertChartByType,getInsertChartComparison,getInsertChartCorrelation,getInsertChartDistribution,getInsertChartGeographic,getInsertChartIndicator,getInsertChartProportion,getInsertChartSideBySide,getInsertChartTrend,getInsertCountCalculation,getInsertCustomElement,getInsertDefaultAggregationCalculation,getInsertForm,getInsertHTable,getInsertIcons,getInsertMaxCalculation,getInsertMinCalculation,getInsertPercentageCalculation,getInsertSection,getInsertSharedElement,getInsertSumCalculation,getInsertTable,getInsertVTable,getInsertXTable,getKeydates,getLabelAutoRefresh,getLabelEnable,getLabelPage,getLabelPageMax,getLabelZoom,getLabelZoomValue,getLeftAlignContextual,getManagePalettes,getManageRules,getManageSharedElements,getMaximizeReportPart,getMergeCells,getMiddleAlignContextual,getModeDesign,getModeReading,getModeStructure,getOpen,getOpenHelp,getOpenTemp,getPageFirst,getPageLast,getPageNext,getPagePrevious,getPageTo,getPaste,getPrint,getProcessHyperlink,getProcessIntraDocumentLink,getPromptMenu,getPurge,getRedo,getRefresh,getRefreshDataProvider,getRefreshMenu,getRemoveBreakContextual,getRemoveElementLinkContextual,getRemoveFilterContextual,getRemoveRankContextual,getRemoveSortContextual,getReportAdd,getReportDelete,getReportDuplicate,getReportHide,getReportMove,getReportMoveFirst,getReportMoveLast,getReportMoveNext,getReportMovePrevious,getReportRename,getReportShow,getRightAlignContextual,getRowAboveContextual,getRowBelowContextual,getSave,getSaveAs,getSaveAsSharedElementContextual,getSaveMenu,getSelectAll,getSendTo,getSetAsSection,getSetDataSeriesDefaultColorsContextual,getSetDefaultLevelContextual,getSetReportDisplayPage,getSetReportDisplayQuick,getSettings,getShowAssignDataTab,getShowBreakTab,getShowContextualMenu,getShowFilterTab,getShowFilters,getShowFormatPanelAppearanceTab,getShowFormatPanelDisplayTab,getShowFormatPanelLayoutTab,getShowFormatPanelStyleTab,getShowFormatPanelTextTab,getShowFormula,getShowHiddenObjectsContextual,getShowRankingTab,getShowSortTab,getSymmCollapseChildrenContextual,getSymmExpandChildrenContextual,getSymmExpandDescendantContextual,getSymmMenuContextual,getTableDrillFocusDown,getTableDrillFocusUp,getTimeDimChangeLevel,getTimeDimChangeLevelMenu,getTimeDimDown,getTimeDimUp,getToggleDrillMode,getToggleFoldUnfold,getToggleHide,getToggleHideMainToolbars,getToggleMainSidePanelVisibility,getTogglePinWorkbenchMainToolbar,getToggleSetReportDisplayModePage,getToggleShowChanges,getToolbarCollapse,getToolbarExpand,getTopAlignContextual,getTrackDataChanges,getTurnToContextual,getUnMergeCell,getUndo,getUnlinkSharedElementContextual,getUpdateSharedElementContextual,getWrcCopy,getWrcImport,getWrcOpen,getWrcOpenMenu,getWrcPublish,getWrcSave,getZoom,getZoomChange,getZoomDecrease,getZoomIncrease|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "WorkbenchElementStore (new)": {
+    "prefix": [
+      "Store",
+      "WorkbenchElementStore"
+    ],
+    "description": "WorkbenchElementStore",
+    "body": [
+      "WorkbenchElementStore.${2|getAbout,getActivateChartZoom,getAddBreakContextual,getAddElementLinkContextual,getAddFilterContextual,getAddRankContextual,getAddSortContextual,getAlignContextual,getAllHierarchiesContextual,getApplyResetElementLink,getAssignDataContextual,getAssignReference,getAutoRefreshOff,getAutoRefreshOn,getBiwSelectFullReportContextual,getBiwSelectReportPartContextual,getBottomAlignContextual,getCenterAlignContextual,getChangeSource,getChartCollapse,getChartDrillDown,getChartDrillFocusDown,getChartDrillFocusUp,getChartDrillUp,getChartExpand,getClearContent,getClearDataSeriesDefaultColorsContextual,getCloseMaximizeReportPart,getCollapseAllHierarchiesContextual,getCollapseChildrenContextual,getColumnLeftContextual,getColumnRightContextual,getComment,getContributionPerspective,getContributionToolbarButton,getCopy,getCopyBlockODataLink,getCopyContent,getCopyHyperlinkUrl,getCreate,getCreateVariable,getCustomElementInteraction,getCut,getDataModel,getDataSourceSelection,getDeleteElement,getDeleteElementContextual,getDrillBy,getDrillContextual,getDrillDown,getDrillFilterDelete,getDrillFocusContextual,getDrillUp,getEdit,getEditAsGeoByLongLat,getEditAsGeoByName,getEditBreakContextual,getEditElementLinkContextual,getEditFilterContextual,getEditFiltersDhtmlDialog,getEditGrouping,getEditQueryPanel,getEditRankContextual,getEditSectionContextual,getEditSortContextual,getEditVariable,getElementAlerters,getElementLevelBack,getElementLevelBackward,getElementLevelForward,getElementLevelFront,getElementLink,getElementLinkContextual,getElementLinkDelete,getElementLinkReset,getElementRanking,getElementSortAsc,getElementSortDesc,getElementSorts,getElementUnSort,getExpandAllHierarchiesContextual,getExpandChildrenContextual,getExpandDescendantContextual,getExport,getExtensionTBMenu,getFavoriteToggle,getFilterbarManagement,getFitToPage,getFitToWidth,getFocusOn,getFooterCalculationContextual,getFormatChart,getFormatFreeCell,getFormatHeterogeneous,getFormatNumber,getFormatNumberContextual,getFormatPageBody,getFormatPageFooter,getFormatPageHeader,getFormatSection,getFormatTable,getFormatTableCell,getFreeze,getFreezeToggle,getHideColContextual,getHideRowContextual,getHideWhenContextual,getHideWhenEmptyContextual,getHierarchyContextual,getHyperlinkAddContextualDoc,getHyperlinkAddContextualIntradoc,getHyperlinkAddContextualUrl,getHyperlinkDocumentAddContextual,getHyperlinkEditContextual,getHyperlinkIntraDocumentAddContextual,getHyperlinkRemoveContextual,getInputControlCreate,getInputControlCreateGroup,getInputControlCreateGroupDocument,getInputControlCreateGroupReport,getInputControlDelete,getInputControlEdit,getInputControlEditGroup,getInputControlGroupAdd,getInputControlsManagement,getInputControlsReset,getInsertAverageCalculation,getInsertCell,getInsertCellComment,getInsertCellDocumentName,getInsertCellDrillFilter,getInsertCellFree,getInsertCellLastRefresh,getInsertCellPageNumber,getInsertCellPageNumberTotal,getInsertCellPageTotal,getInsertCellPrompt,getInsertCellPromptSummary,getInsertCellQuerySummary,getInsertCellReportFilterSummary,getInsertChart,getInsertChartByType,getInsertChartComparison,getInsertChartCorrelation,getInsertChartDistribution,getInsertChartGeographic,getInsertChartIndicator,getInsertChartProportion,getInsertChartSideBySide,getInsertChartTrend,getInsertCountCalculation,getInsertCustomElement,getInsertDefaultAggregationCalculation,getInsertForm,getInsertHTable,getInsertIcons,getInsertMaxCalculation,getInsertMinCalculation,getInsertPercentageCalculation,getInsertSection,getInsertSharedElement,getInsertSumCalculation,getInsertTable,getInsertVTable,getInsertXTable,getKeydates,getLabelAutoRefresh,getLabelEnable,getLabelPage,getLabelPageMax,getLabelZoom,getLabelZoomValue,getLeftAlignContextual,getManagePalettes,getManageRules,getManageSharedElements,getMaximizeReportPart,getMergeCells,getMiddleAlignContextual,getModeDesign,getModeReading,getModeStructure,getOpen,getOpenHelp,getOpenTemp,getPageFirst,getPageLast,getPageNext,getPagePrevious,getPageTo,getPaste,getPrint,getProcessHyperlink,getProcessIntraDocumentLink,getPromptMenu,getPurge,getRedo,getRefresh,getRefreshDataProvider,getRefreshMenu,getRemoveBreakContextual,getRemoveElementLinkContextual,getRemoveFilterContextual,getRemoveRankContextual,getRemoveSortContextual,getReportAdd,getReportDelete,getReportDuplicate,getReportHide,getReportMove,getReportMoveFirst,getReportMoveLast,getReportMoveNext,getReportMovePrevious,getReportRename,getReportShow,getRightAlignContextual,getRowAboveContextual,getRowBelowContextual,getSave,getSaveAs,getSaveAsSharedElementContextual,getSaveMenu,getSelectAll,getSendTo,getSetAsSection,getSetDataSeriesDefaultColorsContextual,getSetDefaultLevelContextual,getSetReportDisplayPage,getSetReportDisplayQuick,getSettings,getShowAssignDataTab,getShowBreakTab,getShowContextualMenu,getShowFilterTab,getShowFilters,getShowFormatPanelAppearanceTab,getShowFormatPanelDisplayTab,getShowFormatPanelLayoutTab,getShowFormatPanelStyleTab,getShowFormatPanelTextTab,getShowFormula,getShowHiddenObjectsContextual,getShowRankingTab,getShowSortTab,getSymmCollapseChildrenContextual,getSymmExpandChildrenContextual,getSymmExpandDescendantContextual,getSymmMenuContextual,getTableDrillFocusDown,getTableDrillFocusUp,getTimeDimChangeLevel,getTimeDimChangeLevelMenu,getTimeDimDown,getTimeDimUp,getToggleDrillMode,getToggleFoldUnfold,getToggleHide,getToggleHideMainToolbars,getToggleMainSidePanelVisibility,getTogglePinWorkbenchMainToolbar,getToggleSetReportDisplayModePage,getToggleShowChanges,getToolbarCollapse,getToolbarExpand,getTopAlignContextual,getTrackDataChanges,getTurnToContextual,getUnMergeCell,getUndo,getUnlinkSharedElementContextual,getUpdateSharedElementContextual,getWrcCopy,getWrcImport,getWrcOpen,getWrcOpenMenu,getWrcPublish,getWrcSave,getZoom,getZoomChange,getZoomDecrease,getZoomIncrease|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "ConfigurationStore": {
+    "prefix": [
+      "Store",
+      "ConfigurationStore"
+    ],
+    "description": "ConfigurationStore",
+    "body": [
+      "StoreRegistry.getConfigurationStore().${2|getCharsets,getCustomVisualizationSamples,getCustomVisualizations,getFontmappings,getFormats,getFunctions,getGradientOrientations,getLocales,getMarkerPalettes,getOperators,getPalettes,getPaperSizes,getSettings,getSkins,getVisualizations|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "ConfigurationStore (new)": {
+    "prefix": [
+      "Store",
+      "ConfigurationStore"
+    ],
+    "description": "ConfigurationStore",
+    "body": [
+      "ConfigurationStore.${2|getCharsets,getCustomVisualizationSamples,getCustomVisualizations,getFontmappings,getFormats,getFunctions,getGradientOrientations,getLocales,getMarkerPalettes,getOperators,getPalettes,getPaperSizes,getSettings,getSkins,getVisualizations|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "ViewStore": {
+    "prefix": [
+      "Store",
+      "ViewStore"
+    ],
+    "description": "ViewStore",
+    "body": [
+      "StoreRegistry.getViewStore().${2|activeController,currentViewId,lastFolderId,lastViewId,views|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "ViewStore (new)": {
+    "prefix": [
+      "Store",
+      "ViewStore"
+    ],
+    "description": "ViewStore",
+    "body": [
+      "ViewStore.${2|activeController,currentViewId,lastFolderId,lastViewId,views|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "AlerterStore": {
+    "prefix": [
+      "Store",
+      "AlerterStore"
+    ],
+    "description": "AlerterStore",
+    "body": [
+      "StoreRegistry.getAlerterStore().${2|getAlerter|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "AlerterStore (new)": {
+    "prefix": [
+      "Store",
+      "AlerterStore"
+    ],
+    "description": "AlerterStore",
+    "body": [
+      "AlerterStore.${2|getAlerter|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "CommentStore": {
+    "prefix": [
+      "Store",
+      "CommentStore"
+    ],
+    "description": "CommentStore",
+    "body": [
+      "StoreRegistry.getCommentStore().${2|getComments|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "CommentStore (new)": {
+    "prefix": [
+      "Store",
+      "CommentStore"
+    ],
+    "description": "CommentStore",
+    "body": [
+      "CommentStore.${2|getComments|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "DocumentInfosStore": {
+    "prefix": [
+      "Store",
+      "DocumentInfosStore"
+    ],
+    "description": "DocumentInfosStore",
+    "body": [
+      "StoreRegistry.getDocumentInfosStore().${2|getSchedules|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "DocumentInfosStore (new)": {
+    "prefix": [
+      "Store",
+      "DocumentInfosStore"
+    ],
+    "description": "DocumentInfosStore",
+    "body": [
+      "DocumentInfosStore.${2|getSchedules|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "DrillerFilterStore": {
+    "prefix": [
+      "Store",
+      "DrillerFilterStore"
+    ],
+    "description": "DrillerFilterStore",
+    "body": [
+      "StoreRegistry.getDrillerFilterStore().${2|getDrillerFilter|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "DrillerFilterStore (new)": {
+    "prefix": [
+      "Store",
+      "DrillerFilterStore"
+    ],
+    "description": "DrillerFilterStore",
+    "body": [
+      "DrillerFilterStore.${2|getDrillerFilter|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "PageStore": {
+    "prefix": [
+      "Store",
+      "PageStore"
+    ],
+    "description": "PageStore",
+    "body": [
+      "StoreRegistry.getPageStore().${2|getAccessibiltyInfos,getComments,getFoldInfos,getJsonOutput,getPage|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "PageStore (new)": {
+    "prefix": [
+      "Store",
+      "PageStore"
+    ],
+    "description": "PageStore",
+    "body": [
+      "PageStore.${2|getAccessibiltyInfos,getComments,getFoldInfos,getJsonOutput,getPage|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "SessionStore": {
+    "prefix": [
+      "Store",
+      "SessionStore"
+    ],
+    "description": "SessionStore",
+    "body": [
+      "StoreRegistry.getSessionStore().${2|getLastOpenedFolder,getLocaleInfo,getLogonError,getLogonInfo,getLogonToken,getRaylightSessionId,getRecents,getSecuredCommands,getSessionInfos,getSessionSettings,getZaboDocument|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "SessionStore (new)": {
+    "prefix": [
+      "Store",
+      "SessionStore"
+    ],
+    "description": "SessionStore",
+    "body": [
+      "SessionStore.${2|getLastOpenedFolder,getLocaleInfo,getLogonError,getLogonInfo,getLogonToken,getRaylightSessionId,getRecents,getSecuredCommands,getSessionInfos,getSessionSettings,getZaboDocument|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "SortStore": {
+    "prefix": [
+      "Store",
+      "SortStore"
+    ],
+    "description": "SortStore",
+    "body": [
+      "StoreRegistry.getSortStore().${2|getSort|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "SortStore (new)": {
+    "prefix": [
+      "Store",
+      "SortStore"
+    ],
+    "description": "SortStore",
+    "body": [
+      "SortStore.${2|getSort|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "VariantStore": {
+    "prefix": [
+      "Store",
+      "VariantStore"
+    ],
+    "description": "VariantStore",
+    "body": [
+      "StoreRegistry.getVariantStore().${2|getVariant|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "VariantStore (new)": {
+    "prefix": [
+      "Store",
+      "VariantStore"
+    ],
+    "description": "VariantStore",
+    "body": [
+      "VariantStore.${2|getVariant|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "WebAppInfoStore": {
+    "prefix": [
+      "Store",
+      "WebAppInfoStore"
+    ],
+    "description": "WebAppInfoStore",
+    "body": [
+      "StoreRegistry.getWebAppInfoStore().${2|getAboutInfo,getAuthenticationModes,getDocumentsOccurrences,getSystemInformations|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "WebAppInfoStore (new)": {
+    "prefix": [
+      "Store",
+      "WebAppInfoStore"
+    ],
+    "description": "WebAppInfoStore",
+    "body": [
+      "WebAppInfoStore.${2|getAboutInfo,getAuthenticationModes,getDocumentsOccurrences,getSystemInformations|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "WebiStore": {
+    "prefix": [
+      "Store",
+      "WebiStore"
+    ],
+    "description": "WebiStore",
+    "body": [
+      "StoreRegistry.getWebiStore().${2|advancedExportModes,authenticationModes,cancelRefreshModes,complexPromptOperators,csvExportColumnDelimiter,csvExportTextQualifier,days,displayModes,hyperlinkTargets,hyperlinkTypes,imageDPI,inputControlOperators,inputControlProperties,inputControlTypes,insertIconsGroup,memberSelectionType,months,rankingCalculationModes,sortOrders,standardPageFormats,uiChartDisplayModes,uiSizes,uiThemes|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "WebiStore (new)": {
+    "prefix": [
+      "Store",
+      "WebiStore"
+    ],
+    "description": "WebiStore",
+    "body": [
+      "WebiStore.${2|advancedExportModes,authenticationModes,cancelRefreshModes,complexPromptOperators,csvExportColumnDelimiter,csvExportTextQualifier,days,displayModes,hyperlinkTargets,hyperlinkTypes,imageDPI,inputControlOperators,inputControlProperties,inputControlTypes,insertIconsGroup,memberSelectionType,months,rankingCalculationModes,sortOrders,standardPageFormats,uiChartDisplayModes,uiSizes,uiThemes|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "ElementLinkStore": {
+    "prefix": [
+      "Store",
+      "ElementLinkStore"
+    ],
+    "description": "ElementLinkStore",
+    "body": [
+      "StoreRegistry.getElementLinkStore().${2|getElementLink|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "ElementLinkStore (new)": {
+    "prefix": [
+      "Store",
+      "ElementLinkStore"
+    ],
+    "description": "ElementLinkStore",
+    "body": [
+      "ElementLinkStore.${2|getElementLink|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "FeatureToggleStore": {
+    "prefix": [
+      "Store",
+      "FeatureToggleStore"
+    ],
+    "description": "FeatureToggleStore",
+    "body": [
+      "StoreRegistry.getFeatureToggleStore().${2|getDHTMLDesignerAllowed|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "FeatureToggleStore (new)": {
+    "prefix": [
+      "Store",
+      "FeatureToggleStore"
+    ],
+    "description": "FeatureToggleStore",
+    "body": [
+      "FeatureToggleStore.${2|getDHTMLDesignerAllowed|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "FullScreenStore": {
+    "prefix": [
+      "Store",
+      "FullScreenStore"
+    ],
+    "description": "FullScreenStore",
+    "body": [
+      "StoreRegistry.getFullScreenStore().${2|getFullScreenData|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "FullScreenStore (new)": {
+    "prefix": [
+      "Store",
+      "FullScreenStore"
+    ],
+    "description": "FullScreenStore",
+    "body": [
+      "FullScreenStore.${2|getFullScreenData|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "WiseAppStore": {
+    "prefix": [
+      "Store",
+      "WiseAppStore"
+    ],
+    "description": "WiseAppStore",
+    "body": [
+      "StoreRegistry.getWiseAppStore().${2|getBehaviorsInfo,getClipboardOperation,getDebugInfo,getHyperlinkData,getPlatform,getServiceInfo,getShowDebugDialog|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "WiseAppStore (new)": {
+    "prefix": [
+      "Store",
+      "WiseAppStore"
+    ],
+    "description": "WiseAppStore",
+    "body": [
+      "WiseAppStore.${2|getBehaviorsInfo,getClipboardOperation,getDebugInfo,getHyperlinkData,getPlatform,getServiceInfo,getShowDebugDialog|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "WiseViewStore": {
+    "prefix": [
+      "Store",
+      "WiseViewStore"
+    ],
+    "description": "WiseViewStore",
+    "body": [
+      "StoreRegistry.getWiseViewStore().${2|getBiwParameters,getDesignerWrapperInstance,getDhtmlDesignerInstance,getOfflineHelpFlag,getOfflineHelpUrl,getOpenDocFilterString,getOpenDocInProgress,getOpenDocParameters,getOpenDocPromptsParameters,getScheduleParameters,getStylePrefixId,getViewContext,getViewIndex,getWiseViewArguments,getWiseViewMode|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "WiseViewStore (new)": {
+    "prefix": [
+      "Store",
+      "WiseViewStore"
+    ],
+    "description": "WiseViewStore",
+    "body": [
+      "WiseViewStore.${2|getBiwParameters,getDesignerWrapperInstance,getDhtmlDesignerInstance,getOfflineHelpFlag,getOfflineHelpUrl,getOpenDocFilterString,getOpenDocInProgress,getOpenDocParameters,getOpenDocPromptsParameters,getScheduleParameters,getStylePrefixId,getViewContext,getViewIndex,getWiseViewArguments,getWiseViewMode|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "WorkbenchErrorStore": {
+    "prefix": [
+      "Store",
+      "WorkbenchErrorStore"
+    ],
+    "description": "WorkbenchErrorStore",
+    "body": [
+      "StoreRegistry.getWorkbenchErrorStore().${2|getError,getErrorState|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "WorkbenchErrorStore (new)": {
+    "prefix": [
+      "Store",
+      "WorkbenchErrorStore"
+    ],
+    "description": "WorkbenchErrorStore",
+    "body": [
+      "WorkbenchErrorStore.${2|getError,getErrorState|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "WorkbenchFilterBarStore": {
+    "prefix": [
+      "Store",
+      "WorkbenchFilterBarStore"
+    ],
+    "description": "WorkbenchFilterBarStore",
+    "body": [
+      "StoreRegistry.getWorkbenchFilterBarStore().${2|getIsDrillerFiltersExpanded,getIsGroupExpanded,getShowKeys|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "WorkbenchFilterBarStore (new)": {
+    "prefix": [
+      "Store",
+      "WorkbenchFilterBarStore"
+    ],
+    "description": "WorkbenchFilterBarStore",
+    "body": [
+      "WorkbenchFilterBarStore.${2|getIsDrillerFiltersExpanded,getIsGroupExpanded,getShowKeys|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "WorkbenchSnapshotStore": {
+    "prefix": [
+      "Store",
+      "WorkbenchSnapshotStore"
+    ],
+    "description": "WorkbenchSnapshotStore",
+    "body": [
+      "StoreRegistry.getWorkbenchSnapshotStore().${2|getCurrent,getIsTemporary,getRedoables,getUndoables|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "WorkbenchSnapshotStore (new)": {
+    "prefix": [
+      "Store",
+      "WorkbenchSnapshotStore"
+    ],
+    "description": "WorkbenchSnapshotStore",
+    "body": [
+      "WorkbenchSnapshotStore.${2|getCurrent,getIsTemporary,getRedoables,getUndoables|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "WorkbenchWarningStore": {
+    "prefix": [
+      "Store",
+      "WorkbenchWarningStore"
+    ],
+    "description": "WorkbenchWarningStore",
+    "body": [
+      "StoreRegistry.getWorkbenchWarningStore().${2|getAfterCancelRefreshPartial,getAfterCancelRefreshPurge,getDocumentOutOfCache,getForceEnableSaveButton,getSaveWarnings,getWarnings|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "WorkbenchWarningStore (new)": {
+    "prefix": [
+      "Store",
+      "WorkbenchWarningStore"
+    ],
+    "description": "WorkbenchWarningStore",
+    "body": [
+      "WorkbenchWarningStore.${2|getAfterCancelRefreshPartial,getAfterCancelRefreshPurge,getDocumentOutOfCache,getForceEnableSaveButton,getSaveWarnings,getWarnings|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "CmsItemStore": {
+    "prefix": [
+      "Store",
+      "CmsItemStore"
+    ],
+    "description": "CmsItemStore",
+    "body": [
+      "StoreRegistry.getCmsItemStore().${2|getAutosaves,getCategories,getCategoriesDocuments,getCmsCurrentFileTypeId,getCmsFolders,getLastCreatedObject,getLocalUniverses,getSharedElements,getUniverses|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "CmsItemStore (new)": {
+    "prefix": [
+      "Store",
+      "CmsItemStore"
+    ],
+    "description": "CmsItemStore",
+    "body": [
+      "CmsItemStore.${2|getAutosaves,getCategories,getCategoriesDocuments,getCmsCurrentFileTypeId,getCmsFolders,getLastCreatedObject,getLocalUniverses,getSharedElements,getUniverses|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "DataModelStore": {
+    "prefix": [
+      "Store",
+      "DataModelStore"
+    ],
+    "description": "DataModelStore",
+    "body": [
+      "StoreRegistry.getDataModelStore().${2|getAddedCombinedCube,getCubes,getDataProviders,getDataSources,getFacetsData,getPreviewData,getRequiredUpdates,getRows|}(${3:viewContext})",
+      "$0"
+    ]
+  },
+  "DataModelStore (new)": {
+    "prefix": [
+      "Store",
+      "DataModelStore"
+    ],
+    "description": "DataModelStore",
+    "body": [
+      "DataModelStore.${2|getAddedCombinedCube,getCubes,getDataProviders,getDataSources,getFacetsData,getPreviewData,getRequiredUpdates,getRows|}(${3:viewContext})",
+      "$0"
+    ]
+  }
+}
