@@ -208,6 +208,14 @@
       "$0"
     ]
   },
+  "getData": {
+    "prefix": ["Wise", "Model", "getData"],
+    "description": "Insert JSONModel model getData statement",
+    "body": [
+      "const { ${1:property} } = this._model.getData()",
+      "$0"
+    ]
+  },
   "array": {
     "prefix": ["Wise", "Array"],
     "description": "Array assistant",

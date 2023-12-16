@@ -11,6 +11,8 @@ WorkbenchController.prototype._dumpStore = function () {
     "workbenchErrorStore", "workbenchFilterBarStore", "workbenchSnapshotStore", "workbenchWarningStore",
     "CmsItemStore"
   ]
+
+
   const stores = {}
   storesList.forEach((name) => {
     const storeName = name.charAt(0).toUpperCase() + name.substring(1)
@@ -43,4 +45,41 @@ WorkbenchController.prototype._dumpStore = function () {
     helpers,
     actions: Object.keys(ActionRegistry).filter((key) => key === key.toUpperCase())
   }))
+}
+
+ReportPartViewer.prototype._load = async function () {
+  if (!this.getVisible() || !this.getDomRef() || this._reportPartLoaded) {
+    return
+  }
+
+  this._internalDestroy()
+
+  const tooltipInfos = this.getTooltipInfos()
+  if (!tooltipInfos) {
+    return
+  }
+
+  this.setBusy(true)
+
+  const { target, viewContext, filters } = tooltipInfos
+
+  this._savedDataFilter = await this._applyFilter(viewContext, filters)
+
+  switch (target.type) {
+    case TooltipTargetTypes.BLOCK.id:
+      await this._loadReportPart(viewContext, target.object.id)
+      break
+
+    case TooltipTargetTypes.REPORT.id:
+      await this._loadReportOutput(viewContext)
+      break
+
+    default:
+      throw new Error(`Unknown target type: ${target.type}`)
+  }
+
+  await this._initializeDocumentViewer()
+
+  this._reportPartLoaded = true
+  this.setBusy(false)
 }
