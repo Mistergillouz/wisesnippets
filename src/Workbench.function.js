@@ -42,14 +42,16 @@ WorkbenchController.prototype._dumpStore = function () {
     const storeName = name.charAt(0).toUpperCase() + name.substring(1);
     const store = StoreRegistry[`get${storeName}`]();
     if (store instanceof PropertiesAbstractStore) {
-      Object.keys(store).forEach((storeKey) => {
-        if (typeof store[storeKey] === 'function' && storeKey.startsWith('get') && !storeKey.endsWith('Key')) {
+      Object.keys(store)
+        .filter((key) => typeof store[key] === 'function')
+        .filter((key) => !key.endsWith('Key'))
+        .filter((key) => key.startsWith('get') || key.startsWith('register'))
+        .forEach((storeKey) => {
           if (!stores[storeName]) {
             stores[storeName] = [];
           }
           stores[storeName].push(storeKey);
-        }
-      });
+        });
     } else {
       const data = store.getData('/');
       stores[storeName] = Object.keys(data).map((key) => key);
